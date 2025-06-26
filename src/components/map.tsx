@@ -22,7 +22,10 @@ export default function MapComponent() {
             mapStyle="mapbox://styles/mapbox/streets-v11"
             // @ts-ignore, the bounds type is valid and compiles fine
             maxBounds={chicagoBounds}
-            />
+            dragRotate={false}
+            >
+                <NavigationControl showCompass={false}/>
+            </Map>
         </div>
     )
 }
