@@ -18,6 +18,7 @@ export default function MapComponent() {
                 latitude: 41.8781,
                 zoom: 14,
             }}
+            reuseMaps
             style={{width: '100%', height: '100vh'}}
             mapStyle="mapbox://styles/mapbox/streets-v11"
             // @ts-ignore, the bounds type is valid and compiles fine
