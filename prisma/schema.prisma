@@ -16,6 +16,7 @@ datasource db {
 
 model Location {
   id          Int      @id @default(autoincrement())
+  name        String
   latitude    Float
   longitude   Float
   address     String
